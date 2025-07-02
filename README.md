@@ -92,7 +92,7 @@ hybrid_score = 0.5 * genre_similarity + 0.5 * (predicted_rating / 5.0)
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Movie_Recommend.git
+git clone https://github.com/OmarIdriss/Movie_Recommend
 cd Movie_Recommend
 ```
 
