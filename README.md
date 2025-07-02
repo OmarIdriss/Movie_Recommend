@@ -82,24 +82,8 @@ hybrid_score = 0.5 * genre_similarity + 0.5 * (predicted_rating / 5.0)
 
 ## 📁 Project Structure
 
-```
-Movie_Recommend/
-├── cleaned/                   # Cached data: TF-IDF, NearestNeighbors
-│   ├── genres_cleaned.csv
-│   ├── tfidf_matrix.pkl
-│   └── nn_model.pkl
-│
-├── models/                    # Trained SVD model
-│   └── svd_sampled_25m.pkl
-│
-├── genre.py                   # Data preparation logic
-├── genre_recommender.py       # Content-based functions
-├── rating_recommender.py      # Rating-based logic
-├── hybrid_recommender.py      # Hybrid logic
-├── main.py                    # CLI version
-├── app.py                     # Streamlit UI
-└── requirements.txt           # Dependencies
-```
+![image](https://github.com/user-attachments/assets/524e2d62-21e7-4281-a0a1-e5edc2f98670)
+
 
 ---
 
